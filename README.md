@@ -77,6 +77,8 @@ phistart is the start index of incident phi angle. We use 360 incident phi angle
 depth is the maximal depth of the tree. When depth is 0, the code computes wave scattering without the tree structure.
 startindex and endindex can be used to restrict the geometry construction to partial fiber (not the full circle).
 
+Please download the [fiber geometry](https://drive.google.com/drive/folders/10vlg475xcVyQCvK9M51ZczmhJpTvpbf6?usp=sharing) and put them under fibersim/mesh/.
+
 ---
 
 Note that you can run other 2D or 3D objects using our PO simulator as well. 
