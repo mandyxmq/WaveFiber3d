@@ -20,7 +20,7 @@ run rough2d:
  ```
 ./rough2d [testcase] [polarization] [lambdastart] [lambdaend]
  ``` 
-where testcase: 0 is circle, testcase=1 is ellipse; polarization: M is TM polarization, E is TE polarization; 
+where testcase=0 is circle, testcase=1 is ellipse; polarization: M is TM polarization, E is TE polarization; 
 lambdastart and lambdaend are the indices for the starting wavelength index and the ending index (included). They are in the range of [0,24].
 rough circle:  radius 10um, roughness 0.02, 1000 elements; ior 1.55+0.1j is used in the BEM simulation
 rough ellipse:  radii 16um, 10um, roughness 0.05, 2000 elements; ior 1.55+0.1j is used in the BEM simulation
